@@ -1,0 +1,27 @@
+
+
+##Guessing game
+
+print welcome message
+import random module
+randomly generate number
+  assert params and step
+  assign generarted number to variable
+prompt input number guess
+  assign chosen number to variable
+set x to 0 for attempt counter
+while loop - condition: compare two numbers
+  increment x by 1
+  if guess less than generated
+    print too low keep guessin
+    prompt for guess
+    continue
+  elif guess more than generated
+    print too high keep guessin
+    prompt for guess
+    continue
+  elif guess equal generated
+    print you did it!
+    print play again?
+      if yes, set loop condition
+      if no, break
